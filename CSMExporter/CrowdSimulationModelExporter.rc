@@ -1,0 +1,220 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_ANIM DIALOGEX 0, 0, 186, 81
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Animation"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",ID_ANIM_BTN_OK,121,39,50,14
+    PUSHBUTTON      "Cancel",ID_ANIM_BTN_CANCEL,121,57,50,14
+    LTEXT           "Animation Name:",IDC_STATIC,13,12,55,8
+    LTEXT           "First Frame:",IDC_STATIC,14,37,40,8
+    EDITTEXT        IDC_EDIT_ANIM_NAME,75,9,59,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_FFRAME,59,34,21,14,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Last Frame:",IDC_STATIC,13,60,39,8
+    EDITTEXT        IDC_EDIT_LFRAME,59,58,21,14,ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "<",IDC_BUTTON_FF_MINUS,82,33,10,14
+    PUSHBUTTON      "<",IDC_BUTTON_LF_MINUS,82,57,10,14
+    PUSHBUTTON      ">",IDC_BUTTON_FF_PLUS,95,33,10,14
+    PUSHBUTTON      ">",IDC_BUTTON_LF_PLUS,95,57,10,14
+END
+
+IDD_DLG_OBJLIST DIALOGEX 0, 0, 186, 94
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Object List Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",ID_OBJLIST_OK,129,7,50,14
+    PUSHBUTTON      "Cancel",ID_OBJLIST_CANCEL,129,24,50,14
+    LISTBOX         IDC_LIST_OBJ,7,7,116,80,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DLG_ANIM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 74
+    END
+
+    IDD_DLG_OBJLIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDO_OPTIONS DIALOGEX 0, 0, 255, 264
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Crowd Simulation Model Exporter 1.6"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Include Animation",IDC_CHECK_ANIM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,16,14,84,10
+    PUSHBUTTON      "Add",IDC_BUTTON_ADD,191,32,50,14
+    PUSHBUTTON      "Edit",IDC_BUTTON_EDIT,191,51,50,14
+    PUSHBUTTON      "Delete",IDC_BUTTON_DELETE,191,70,50,14
+    PUSHBUTTON      "OK",IDC_OK,120,238,50,14
+    PUSHBUTTON      "Cancel",IDC_CANCEL,194,238,50,14
+    CONTROL         "Include Tags",IDC_CHECK_TAGS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,16,105,64,10
+    CONTROL         "",IDC_LIST_ANIM,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,16,31,167,67
+    PUSHBUTTON      "Select From List",IDC_BUTTON_HEAD,170,120,72,14
+    EDITTEXT        IDC_EDIT_HEAD,64,120,86,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_UPPER,64,139,86,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_LOWER,64,158,85,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_PROPERTY,64,196,86,14,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Head: ",IDC_STATIC,18,123,25,8
+    LTEXT           "Upper:",IDC_STATIC,17,141,25,8
+    LTEXT           "Lower:",IDC_STATIC,17,161,25,8
+    LTEXT           "Property:",IDC_STATIC,17,199,37,8
+    PUSHBUTTON      "Select From List",IDC_BUTTON_UPPER,170,138,72,14
+    PUSHBUTTON      "Select From List",IDC_BUTTON_LOWER,170,157,72,14
+    PUSHBUTTON      "Select From List",IDC_BUTTON_PROPERTY,170,196,72,14
+    CONTROL         "Include Property",IDC_CHECK_PROPERTY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,179,80,10
+    LTEXT           "Mount To:",IDC_STATIC,17,219,37,8
+    COMBOBOX        IDC_COMBO_MOUNTTO,64,217,53,30,CBS_DROPDOWNLIST | CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "X",IDC_BUTTON_HEAD_X,153,120,12,14
+    PUSHBUTTON      "X",IDC_BUTTON_UPPER_X,153,139,12,14
+    PUSHBUTTON      "X",IDC_BUTTON_LOWER_X,153,158,12,14
+    PUSHBUTTON      "X",IDC_BUTTON_PROPERTY_X,153,196,12,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDO_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 248
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 257
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_LIBDESCRIPTION      "The exporter for crowd simulation model."
+    IDS_CATEGORY            "CSMExport"
+    IDS_CLASS_NAME          "CSMExport"
+    IDS_PARAMS              "Parameters"
+    IDS_SPIN                "Spin"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
