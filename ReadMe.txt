@@ -1,0 +1,7 @@
+CSMExporter是3dmax导出插件项目;
+RenderCSM则是用来显示.CSM文件的MFC程序;
+
+CSMExporter is the 3dmax exporter project;
+RenderCSM is a MFC project used to render a CSM file exported from CSMExporter;
+
+CrowdSimulationModelExporter.dle is the generated 3ds max plugin file outputted from CSMExporter project.
