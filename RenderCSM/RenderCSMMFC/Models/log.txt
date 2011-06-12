@@ -1,0 +1,34 @@
+=>搜集NodeObject01
+	=>搜集顶点702个
+	=>搜集纹理坐标1354个
+	=>搜集三角形面1248个
+	=>获取纹理材质tam_wa_1.jpg
+		uTile=1, vTile=1
+	=>获取纹理材质tam_dougong_1.jpg
+		uTile=1, vTile=1
+	=>获取纹理材质tam_wall_1.jpg
+		uTile=1, vTile=1
+	=>获取纹理材质tam_diban_2_1.jpg
+		uTile=1, vTile=1
+	=>获取纹理材质tam_nv_wall_2_1.jpg
+		uTile=1, vTile=1
+	=>获取纹理材质tam_mzd_1.jpg
+		uTile=1, vTile=1
+	=>获取纹理材质tam_guohui_1.jpg
+		uTile=1, vTile=1
+	=>获取纹理材质tam_jiaowall_1.jpg
+		uTile=1, vTile=1
+	=>获取纹理材质tam_door_2_1.jpg
+		uTile=1, vTile=1
+	=>获取纹理材质tam_wall_2_1.jpg
+		uTile=1, vTile=1
+	=>获取纹理材质tam_nv_wall_2_1.jpg
+		uTile=1, vTile=1
+	=>获取纹理材质tam_diban_2_1.jpg
+		uTile=1, vTile=1
+	=>获取纹理材质text_2.jpg
+		uTile=1, vTile=1
+	=>获取纹理材质text_1.jpg
+		uTile=1, vTile=1
+	=>获取纹理材质tam_shoutou_2_1.jpg
+		uTile=1, vTile=1
